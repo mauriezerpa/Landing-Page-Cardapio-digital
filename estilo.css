@@ -22,6 +22,7 @@
 
  .cabecalho-logo {
     height: 72px;
+    border-radius: 40%;
  }
 
  .cabecalho-menu{
@@ -35,5 +36,56 @@
     font-weight: 400;
     font-size: 18px;
  }
+
+ .conteudo{
+   border-top: 0.4px solid red ;
+   margin-bottom: 48px;
+ }
+
+ .conteudo-principal {
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+ }
+
+ .conteudo-principal-texto {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+ }
+
+ .conteudo-principal-titulo {
+   font-family: 'DM Sans', sans-serif;
+   font-weight: 400;
+   font-size: 64px ;
+   color: #FE0000;
+ }
+
+ .conteudo-principal-subtitulo {
+   font-family: 'DM Sans', sans-serif;
+   font-weight: 400;
+   font-size: 24px ;
+ }
+
+ .conteudo-principal-botao {
+   background-color: #FAC12B; 
+   width: 180px ;
+   height: 60px;
+   border: none;
+   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   font-family: 'DM Sans', sans-serif;
+   font-weight: 400;
+   font-size: 18px ;
+ }
+
+ .conteudo-principal-imagem {
+   border-radius: 20%;
+   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+ }
+
+
 
 
